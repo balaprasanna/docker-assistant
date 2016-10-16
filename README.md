@@ -1,5 +1,7 @@
 #Docker Assistant
 
+@jameshclrk, @meetmumbojumbo, @TCroasdale, @TeknoVenus
+
 ![Just Docker](http://i.imgur.com/coLD9Dm.jpg)
 
 ## Inspiration
