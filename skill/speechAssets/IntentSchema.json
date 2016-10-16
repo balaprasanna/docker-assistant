@@ -1,0 +1,70 @@
+{
+    "intents": [
+        {
+            "intent": "AMAZON.ResumeIntent"
+        },
+        {
+            "intent": "AMAZON.PauseIntent"
+        },
+        {
+            "intent": "StatusIntent"
+        },
+		{
+            "intent": "QuitIntent"
+        },
+        {
+            "intent": "ListIntent"
+        },
+        {
+            "intent": "CreateIntent",
+            "slots": [
+                {
+                    "name": "imageName",
+                    "type": "IMAGE"
+                },
+                {
+                    "name": "containerName",
+                    "type": "NAME"
+                }
+            ]
+        },
+        {
+            "intent": "StartIntent",
+            "slots": [
+                {
+                    "name": "containerName",
+                    "type": "NAME"
+                }
+            ]
+        },{
+            "intent": "StopIntent",
+            "slots": [
+                {
+                    "name": "containerName",
+                    "type": "NAME"
+                }
+            ]
+        },{
+            "intent": "EnquireIntent",
+            "slots": [
+                {
+                    "name": "containerName",
+                    "type": "NAME"
+                },
+				{
+                    "name": "resourceType",
+                    "type": "RESOURCETYPE"
+                }
+            ]
+        },
+        {
+            "intent": "DockerStatusIntent"
+        },
+		{
+            "intent": "HelpIntent"
+        },
+        {
+            "intent": "AMAZON.HelpIntent"
+        }
+    ]
+}

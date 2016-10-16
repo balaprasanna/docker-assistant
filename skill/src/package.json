@@ -1,0 +1,8 @@
+{
+  "name" : "docker-assistant-skill",
+  "contributors" : [],
+  "dependencies" :
+      { "request" : "latest"
+      },
+  "version" : "0.0.1"
+}

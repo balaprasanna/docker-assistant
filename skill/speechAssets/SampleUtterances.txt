@@ -1,0 +1,53 @@
+StatusIntent how are my containers
+StatusIntent how are they
+StatusIntent containers
+StatusIntent how are the containers
+StatusIntent container status
+ListIntent what are they
+ListIntent what are they called
+ListIntent which ones
+ListIntent what are my containers
+ListIntent what are my running containers
+ListIntent what are their names
+ListIntent name them
+ListIntent names
+ListIntent list
+EnquireIntent {containerName}
+EnquireIntent how is {containerName}
+EnquireIntent tell me about {containerName}
+EnquireIntent what is the status of {containerName}
+EnquireIntent status of {containerName}
+EnquireIntent what is the {resourceType} of {containerName}
+EnquireIntent give me the {resourceType} of {containerName}
+CreateIntent create a {imageName} container called {containerName}
+CreateIntent make a container {containerName} for {imageName}
+CreateIntent create a {imageName} container
+CreateIntent make a {imageName} container
+CreateIntent create {imageName}
+DockerStatusIntent is docker ok
+DockerStatusIntent hows docker
+DockerStatusIntent how is docker
+DockerStatusIntent is docker up
+DockerStatusIntent is docker running
+DockerStatusIntent docker status
+StartIntent start {containerName}
+StartIntent start it
+StartIntent begin {containerName}
+StartIntent resume {containerName}
+StopIntent interrupt {containerName}
+StopIntent stop {containerName}
+StopIntent stop it
+HelpIntent I need help
+HelpIntent where can i get help
+HelpIntent help
+HelpIntent I'm stuck
+HelpIntent call nine one one its an emergency
+QuitIntent goodbye
+QuitIntent stop
+QuitIntent bye
+QuitIntent thank you
+QuitIntent cheerio
+QuitIntent toodaloo
+QuitIntent toodles
+QuitIntent See you later alligater
+QuitIntent see you in a while crocidile

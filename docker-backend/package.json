@@ -1,0 +1,10 @@
+{
+  "name" : "docker-assistant-backend",
+  "contributors" : [],
+  "dependencies" :
+      { "dockerode" : "latest"
+      , "express" : "latest"
+      , "body-parser" : "latest"
+      },
+  "version" : "0.0.1"
+}
